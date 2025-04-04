@@ -9,3 +9,7 @@ This script is designed for routers with limited flash storage. I use an hAP ac2
 Tested on hAP ac2 with RouterOS 7.18.2.
 
 [This](https://forum.mikrotik.com/viewtopic.php?t=10278) topic was used as inspiration
+
+## Known bugs
+
+Sometimes is something wrong when mount point name in ```/disk print where mounted``` already has a "backup" folder. Maybe it's just a codepage problem. So it need to recreate this folder using RouterOS.
