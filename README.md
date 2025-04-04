@@ -12,4 +12,4 @@ Tested on hAP ac2 with RouterOS 7.18.2.
 
 ## Known bugs
 
-Sometimes is something wrong when mount point name in ```/disk print where mounted``` already has a "backup" folder. Maybe it's just a codepage problem. So it need to recreate this folder using RouterOS.
+Sometimes something goes wrong when the mount point name in ```/disk print where mounted``` already contains a "backup" folder. Maybe it's just a codepage problem. So it need to recreate this folder using RouterOS.
